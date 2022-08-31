@@ -1,6 +1,8 @@
 # Get started
 - In this GitHub repository page, use the button **Use this template** to create a GitHub repo under your account.
 - Clone that new repository you craeted to your local computer: `git clone https://github.com/P026/<repo_name>`, replace `<repo_name>` with your repo name.
+- Change directory to the newly created directory (will have the same name as the repository) in your pc, use `cd <direcory_name>` (replace `<directory_name>` with the actual name)
+- Install the dependencies: Use the command `npm install` or `yarn`
 
 # Adding commands
 - Create command files inside the [`src/commands`](src/commands) directory. Check the example command [`ping.js`](src/commands/ping.js) for reference
