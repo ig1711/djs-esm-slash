@@ -50,9 +50,9 @@ yarn dev
 
 # Deploy in heroku (Method 1)
 - Use Heroku GitHub integration to deploy
-- Add and commit all your changed in the repository: `git add .` and `git commit -m "Commit message"`
+- Add and commit all your changes in the repository: `git add .` and `git commit -m "Commit message"`
 - Push to GitHub: `git push origin main`
-- Go to Heroku dashboard, create or use an existing Heroku app, go to the `deploy` tab and select GitHub as deployment method and follor further instructions there
+- Go to Heroku dashboard, create or use an existing Heroku app, go to the `deploy` tab and select GitHub as deployment method and follow further instructions there
 
 # Deploy in heroku (Method 2)
 - Install the heroku cli tool: Check this page for instructions https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
