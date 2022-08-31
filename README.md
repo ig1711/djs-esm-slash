@@ -48,7 +48,7 @@ npm run dev
 yarn dev
 ```
 
-# Deploy in heroku (Method 2)
+# Deploy in heroku (Method 1)
 - Use Heroku GitHub integration to deploy
 - Add and commit all your changed in the repository: `git add .` and `git commit -m "Commit message"`
 - Push to GitHub: `git push origin main`
