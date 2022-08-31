@@ -1,3 +1,7 @@
+# Get started
+- In this GitHub repository page, use the button **Use this template** to create a GitHub repo under your account.
+- Clone that new repository you craeted to your local computer: `git clone https://github.com/P026/<repo_name>`, replace `<repo_name>` with your repo name.
+
 # Adding commands
 - Create command files inside the [`src/commands`](src/commands) directory. Check the example command [`ping.js`](src/commands/ping.js) for reference
 - Make sure the export object name matches the command name in the `SlashCommandBuilder.setName()`
@@ -43,7 +47,14 @@ npm run dev
 
 yarn dev
 ```
-# Deploy in heroku (Method 1)
+
+# Deploy in heroku (Method 2)
+- Use Heroku GitHub integration to deploy
+- Add and commit all your changed in the repository: `git add .` and `git commit -m "Commit message"`
+- Push to GitHub: `git push origin main`
+- Go to Heroku dashboard, create or use an existing Heroku app, go to the `deploy` tab and select GitHub as deployment method and follor further instructions there
+
+# Deploy in heroku (Method 2)
 - Install the heroku cli tool: Check this page for instructions https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
 - Login to the heroku cli using your Heroku account: Use the command `heroku login` 
 - Create a Heroku app or add the remote url of an existing Heroku app to the project
@@ -53,6 +64,3 @@ yarn dev
 - Add and commit your changes for files: `git add .` and `git commit -m "Commit message"`
 - Push to heroku remote repository: `git push heroku main`
 - Scale to worker instead of web process: `heroku ps:scale web=0 worker=1`
-
-# Deploy in heroku (Method 2)
-- Use Heroku Github integration to deploy
