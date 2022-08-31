@@ -1,0 +1,23 @@
+{
+  "name": "djs-esm-slash",
+  "version": "1.0.0",
+  "description": "Template for handling slash commands using discord.js with es modules for deploying using heroku",
+  "engines": {
+    "node": "^18"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node --no-warnings .",
+    "dev": "node --experimental-specifier-resolution=node --no-warnings --require dotenv/config .",
+    "register": "node --experimental-specifier-resolution=node --no-warnings --require dotenv/config init/registration.js",
+    "guildregister": "node --experimental-specifier-resolution=node --no-warnings --require dotenv/config init/guild_registration.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.3.0"
+  }
+}
