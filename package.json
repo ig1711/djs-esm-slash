@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template for handling slash commands using discord.js with es modules for deploying using heroku",
   "engines": {
-    "node": "^18"
+    "node": "18.x"
   },
   "main": "src/index.js",
   "type": "module",
